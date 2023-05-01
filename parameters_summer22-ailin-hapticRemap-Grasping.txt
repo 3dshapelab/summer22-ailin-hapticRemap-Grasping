@@ -1,0 +1,26 @@
+# Comments start with #
+# If subjectName is "junk" overwrites
+# Specify BaseDir with the backslash as follows
+#the values for each subject are written in this file
+BaseDir: dataset\junk\
+
+####### INPUT ########
+SubjectName: aa1
+Session: 1
+IOD: 65.5  # Inter-ocular distance (between the pupils)
+dispDepth: -400 # 
+targetCue: 1
+######################
+# number of repetitions
+Repetitions: 3
+RandomizeWithoutConsecutive: 1
+# randomize levels of factors (1) or not (0)
+Randomize: 2
+
+#########################################
+# Here follows the list of all factors, they all start with "f"
+#########################################
+fmeanDepth: 25 28 31 34 37 40
+fDepthDelta: -5 5 -4 4 -3 3 -2 2
+
+
